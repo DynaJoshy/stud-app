@@ -1,1 +1,1 @@
-A quiz game web app or elementary school students using HTML,CSS & JavaScript
+A quiz game web app for elementary school students using HTML,CSS & JavaScript
