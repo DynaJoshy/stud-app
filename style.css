@@ -1,0 +1,112 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Luckiest guy';
+    background-color:gold;
+}
+.content
+{
+    padding:20px;
+    overflow:hidden;
+    background-color:rgb(221, 159, 159);
+}
+.content h1{
+    float:left;
+    margin-left: 10%;
+    color:rgb(100, 50, 187);
+}
+.content ul
+{
+ list-style-type:none;
+ font-size: 20px;
+ margin-left: 60%;   
+}
+.content li
+{
+    margin-top: 10px;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+.content a{
+    text-decoration: none;
+    color:rgb(12, 96, 169);
+}
+/* .list a::after
+{
+    content: '_';
+    background-color: rgb(10, 223, 202);
+    font-size: 4px;
+    display: block;
+} */
+.wrapper
+{
+    display: grid;
+    grid-template-columns: 82% 18%;
+}
+.eq
+{
+    background-color: rgb(223, 225, 224);
+    font-size: 65px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.eq h1
+{
+    display: inline;
+    padding: 20px;
+
+}
+.answer-options
+{
+    font-size: 67px;
+    margin-right:10px
+}
+.answer-options h1
+{
+    font: size 67px;
+    cursor:pointer;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align:center;
+    width: 100%;
+
+}
+#op1
+{
+    background-color: rgb(18, 224, 231);
+    transition: 1s;
+}
+#op1::hover
+{
+    color:rgb(177, 33, 205);
+    color:cyan;
+}
+#op2
+{
+    background-color:rgb(167, 33, 147);
+    transition: 1s;
+}
+#op2::hover
+{
+    color:rgb(125, 14, 153);
+    color:cyan;
+}
+
+#op3
+{
+    background-color:floralwhite;
+    transition: 1s;
+}
+#op3::hover
+{
+    color:cornflowerblue;
+    color:cyan;
+}
+
